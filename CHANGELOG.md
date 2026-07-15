@@ -1,5 +1,45 @@
 # Changelog
 
+## [0.2.2](https://github.com/barnolacesc/dockyard/compare/v0.2.1...v0.2.2) (2026-07-15)
+
+
+### Features
+
+* add getting-started tour flow content ([982523b](https://github.com/barnolacesc/dockyard/commit/982523bc8112c2548a78cc2466d8bee3da3724a5))
+* add interactive getting-started tour and what's new panel ([c300666](https://github.com/barnolacesc/dockyard/commit/c300666af4bf20edc4bb1b34ce9b34924cb30462))
+* add tour data model and anchor plumbing ([6fbfe8d](https://github.com/barnolacesc/dockyard/commit/6fbfe8d2acabd3e336cafd8193ef6272524e716b))
+* add tour entry points in Help menu and onboarding ([52f3619](https://github.com/barnolacesc/dockyard/commit/52f36198109bc73d74379d78b30d049d839be106))
+* add tour overlay, anchors, and run/config event posts ([daff1b8](https://github.com/barnolacesc/dockyard/commit/daff1b84d0335fe71e2c16d241fa7bc8edf7c917))
+* add TourController with notification-driven advancement ([22b405e](https://github.com/barnolacesc/dockyard/commit/22b405e8af44e39b4187e97b843395bec94d6468))
+* add what's new gate, models, and catalog ([bad3ba9](https://github.com/barnolacesc/dockyard/commit/bad3ba96eaead1ada0c1f413cbc47eb9abf38cba))
+* add what's new panel with per-version gate ([2ec9119](https://github.com/barnolacesc/dockyard/commit/2ec9119ec8dd45bbc48fde5d5fdd0ab03bc17a8f))
+* name agent sessions after the task branch ([840b9b4](https://github.com/barnolacesc/dockyard/commit/840b9b42e3da19d7aa535eecdae114c4d8a4bd41))
+* name Claude Code agent sessions after the task branch ([7e72699](https://github.com/barnolacesc/dockyard/commit/7e72699bbc7551f1956b27009b121647ae50e551))
+* show Claude in Chrome activity ([aabce5f](https://github.com/barnolacesc/dockyard/commit/aabce5f62ea4db204d1d02be4b3054b4a805ffe9))
+* show Claude in Chrome activity ([bf0d04f](https://github.com/barnolacesc/dockyard/commit/bf0d04fa1f7ba7f3a433cfa3b89152db4d27fff4))
+* triage worktree list, delete branches on prune, fix stale overview ([6a8c87c](https://github.com/barnolacesc/dockyard/commit/6a8c87c3a41b8b6d5c502d9495db1225d3b4fd2b))
+
+
+### Bug Fixes
+
+* don't let untracked files block self-update rebase ([ecabe78](https://github.com/barnolacesc/dockyard/commit/ecabe78ee1ed8360fa7aec0ac53b5ad5b525daec))
+* force worktree removal in prune to handle populated submodules ([0dbcd7e](https://github.com/barnolacesc/dockyard/commit/0dbcd7e5a3d49fa15dcaba6ee4ef96183c5e29ee))
+* re-exec latest self-update script so update-flow fixes apply immediately ([33b3fdb](https://github.com/barnolacesc/dockyard/commit/33b3fdb6c227d8b633f3163e22aba93046046d84))
+* re-exec latest self-update script so update-flow fixes apply immediately ([558dc75](https://github.com/barnolacesc/dockyard/commit/558dc758cc5fd215906eacdf37cc0f478cf0ff91))
+* scope tour run-start signal and harden controller ([d153e26](https://github.com/barnolacesc/dockyard/commit/d153e26099062e928101b1f680a6bb9001eface5))
+* worktree triage, prune branches + submodule force-remove, self-update untracked files ([95217cd](https://github.com/barnolacesc/dockyard/commit/95217cd929b757b589acf2e6f1753a719a49dde8))
+
+
+### Miscellaneous
+
+* merge main and resolve localization conflicts ([a2c8e35](https://github.com/barnolacesc/dockyard/commit/a2c8e352eece12e5db106f6a44b9389f764fbf70))
+
+
+### Documentation
+
+* note release-please CI approval quirk in TODO ([393d162](https://github.com/barnolacesc/dockyard/commit/393d1625640bf8af476aad73331d0d2f7d0bea17))
+* note release-please CI approval quirk in TODO ([1c1c4b2](https://github.com/barnolacesc/dockyard/commit/1c1c4b26db9a980b9cdf1aa600ebcb3da0a9af7d))
+
 ## [0.2.1](https://github.com/barnolacesc/dockyard/compare/v0.2.0...v0.2.1) (2026-07-11)
 
 
